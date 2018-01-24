@@ -40,6 +40,10 @@ class SecondViewController: UIViewController {
 
     override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
         print("SecondViewController: dismiss() called")
+        guard presentedViewController != nil else {
+            print("SecondViewController: presentedViewController is nil - dismiss() cancelled")
+            return
+        }
         super.dismiss(animated: flag, completion: completion)
     }
 }
