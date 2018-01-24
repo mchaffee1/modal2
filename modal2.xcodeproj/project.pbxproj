@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2B0BDFE120190EA800152463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0BDFE020190EA800152463 /* AppDelegate.swift */; };
-		2B0BDFE320190EA800152463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0BDFE220190EA800152463 /* ViewController.swift */; };
+		2B0BDFE320190EA800152463 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0BDFE220190EA800152463 /* FirstViewController.swift */; };
 		2B0BDFE620190EA800152463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0BDFE420190EA800152463 /* Main.storyboard */; };
 		2B0BDFE820190EA800152463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0BDFE720190EA800152463 /* Assets.xcassets */; };
 		2B0BDFEB20190EA800152463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0BDFE920190EA800152463 /* LaunchScreen.storyboard */; };
 		2B0BDFF620190EA800152463 /* modal2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0BDFF520190EA800152463 /* modal2Tests.swift */; };
 		2B0BE00120190EA800152463 /* modal2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0BE00020190EA800152463 /* modal2UITests.swift */; };
+		2B0BE00F20190F9C00152463 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0BE00E20190F9C00152463 /* SecondViewController.swift */; };
+		2B0BE0112019155800152463 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 2B0BE0102019155800152463 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		2B0BDFDD20190EA800152463 /* modal2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modal2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0BDFE020190EA800152463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B0BDFE220190EA800152463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B0BDFE220190EA800152463 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2B0BDFE520190EA800152463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B0BDFE720190EA800152463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B0BDFEA20190EA800152463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		2B0BDFFC20190EA800152463 /* modal2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modal2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0BE00020190EA800152463 /* modal2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modal2UITests.swift; sourceTree = "<group>"; };
 		2B0BE00220190EA800152463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0BE00E20190F9C00152463 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2B0BE0102019155800152463 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				2B0BDFE020190EA800152463 /* AppDelegate.swift */,
-				2B0BDFE220190EA800152463 /* ViewController.swift */,
+				2B0BDFE220190EA800152463 /* FirstViewController.swift */,
 				2B0BDFE420190EA800152463 /* Main.storyboard */,
+				2B0BE0102019155800152463 /* index.html */,
+				2B0BE00E20190F9C00152463 /* SecondViewController.swift */,
 				2B0BDFE720190EA800152463 /* Assets.xcassets */,
 				2B0BDFE920190EA800152463 /* LaunchScreen.storyboard */,
 				2B0BDFEC20190EA800152463 /* Info.plist */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0BDFEB20190EA800152463 /* LaunchScreen.storyboard in Resources */,
+				2B0BE0112019155800152463 /* index.html in Resources */,
 				2B0BDFE820190EA800152463 /* Assets.xcassets in Resources */,
 				2B0BDFE620190EA800152463 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0BDFE320190EA800152463 /* ViewController.swift in Sources */,
+				2B0BE00F20190F9C00152463 /* SecondViewController.swift in Sources */,
+				2B0BDFE320190EA800152463 /* FirstViewController.swift in Sources */,
 				2B0BDFE120190EA800152463 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7TG4MJ93Z;
 				INFOPLIST_FILE = modal2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.modal2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7TG4MJ93Z;
 				INFOPLIST_FILE = modal2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.modal2;
 				PRODUCT_NAME = "$(TARGET_NAME)";

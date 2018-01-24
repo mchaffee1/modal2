@@ -8,7 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstViewController: UIViewController {
+
+    @IBAction func presentSecondViewControllerTap(_ sender: Any) {
+        presentSecondViewController()
+    }
+
+    func presentSecondViewController() {
+        let secondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController")
+
+        present(secondViewController, animated: true, completion: nil)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +29,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
