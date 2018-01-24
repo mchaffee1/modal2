@@ -7,5 +7,8 @@ AND the user then dismisses the resulting WKActionSheet
 THEN dismiss() is called twice on the view controller containing the WKWebView
 AND the modally presented WKWebView is also dismissed.
 
-To investigate, build and run the application on iOS 11, and follow the prompts in the app.  Thanks for your attention!
+To investigate, build and run the application on iOS 11, and follow the prompts in the app.  
 
+In the same folder as this README is also a file, "demo.mov" which is a recording of this project running.
+
+Thanks for your attention!
